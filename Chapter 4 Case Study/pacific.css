@@ -1,3 +1,5 @@
+/* Joshua Ciffer 03/03/2019 */
+
 body {
 	color: #666666;
 	background-color: #FFFFFF;
@@ -12,6 +14,10 @@ nav {
 	background-color: #90C7E3;
 }
 
+h1 {
+	margin-bottom: 0;	
+}
+
 h2 {
 	color: #3399CC;
 }
@@ -23,4 +29,3 @@ dt {
 .resort {
 	color: #5C7FA3;
 }
-
