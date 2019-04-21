@@ -1,0 +1,60 @@
+/* Joshua Ciffer 04/21/2019 */
+
+body {
+	color: #666666;
+	background-color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	color: #FFFFFF;
+	background-color: #000033;
+	background-image: url(sunset.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	line-height: 400%;
+	text-indent: 1em;
+}
+
+nav {
+	background-color: #90C7E3;
+	font-weight: bold;
+}
+
+footer {
+	font-size: 75%;
+	text-style: italic;
+	font-family: Georgia, 'Times New Roman', serif;
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 0;
+	font-family: Georgia, 'Times New Roman', serif;
+}
+
+h2 {
+	color: #3399CC;
+	font-family: Georgia, 'Times New Roman', serif;
+}
+
+h3 {
+	font-family: Georgia, 'Times New Roman', serif;
+}
+
+dt {
+	color: #000033;
+}
+
+ul {
+	list-style-image: url(marker.gif);
+}
+
+.resort {
+	color: #5C7FA3;
+	font-weight: bold;
+}
+
+#contact {
+	font-size: .90em;
+}
