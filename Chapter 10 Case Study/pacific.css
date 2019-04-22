@@ -1,0 +1,282 @@
+/* Joshua Ciffer 04/21/2019 */
+
+* {
+	box-sizing: border-box;
+}
+
+header, main, nav, footer, figure, figcaption, aside, section, article { display: block; }
+
+body {
+	color: #666666;
+	background-color: #B8DBED;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	color: #FFFFFF;
+	background-color: #000033;
+	height: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	padding-left: 3em;
+}
+
+nav {
+	font-weight: bold;
+	font-size: 120%;
+	padding: 1.5em 1.5em 1.5em 1.5em;
+	width: 160px;
+	float: left;
+}
+
+main {
+	background-color: #FFFFFF;
+	margin-left: 190px;
+	padding-left: 30px;
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	display: block;
+}
+
+footer {
+	margin-left: 190px;
+	background-color: #FFFFFF;
+	font-size: 75%;
+	text-style: italic;
+	font-family: Georgia, 'Times New Roman', serif;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+}
+
+h1 {
+	font-size: 3em;
+	letter-spacing: .25em;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: Georgia, 'Times New Roman', serif;
+}
+
+h2 {
+	color: #3399CC;
+	font-family: Georgia, 'Times New Roman', serif;
+	text-shadow: 1px 1px 0 #CCCCCC
+}
+
+h3 {
+	font-family: Georgia, 'Times New Roman', serif;
+}
+
+dt {
+	color: #000033;
+}
+
+table {
+	border: 2px solid #3399CC;
+	border-collapse: collapse;
+}
+
+td, th {
+	padding: .5em .5em .5em .5em;
+	border: 2px solid #3399CC;
+}
+
+td {
+	text-align: center;
+}
+
+main ul {
+	list-style-image: url(marker.gif);
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	font-size: 1.2em;
+}
+
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 120px;
+	padding-right: auto;
+}
+
+input, textarea {
+	display: block;
+	margin-bottom: 20px;
+}
+
+input[type="submit"] {
+	margin-left: 130px;
+}
+
+nav a:link {
+	color: #5C7FA3;
+}
+
+nav a:visited {
+	color: #344873;
+}
+
+nav a:hover {
+	color: #A52A2A;
+}
+
+tr:nth-of-type(odd) {
+	background-color: #F5FAFC;
+}
+
+.resort {
+	color: #5C7FA3;
+	font-weight: bold;
+}
+
+.text {
+	text-align: left;
+}
+
+#contact {
+	font-size: .90em;
+}
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	min-width: 960px;
+	max-width: 2048px;
+	background-color: #90C7E3;
+	box-shadow: 3px 3px #333333;
+	border: 1px solid #000033;
+	background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3);
+}
+
+#homehero {
+	margin-left: 190px;
+	height: 300px;
+	background-image: url(coast.jpg);
+	background-size: 100% 100%;
+	background-repreat: no-repeat;
+}
+
+#yurthero {
+	margin-left: 190px;
+	height: 300px;
+	background-image: url(yurt.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#trailhero {
+	margin-left: 190px;
+	height: 300px;
+	background-image: url(trail.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#mobile {
+	display: none;
+}
+
+#desktop {
+	display: inline;
+}
+
+@media only screen and (max-width: 64em) {
+	body {
+		margin: 0;
+		background-color: #FFFFFF;
+	}
+	#wrapper {
+		min-width: 0;
+		width: auto;
+		box-shadow: none;
+		border: none;
+	}
+	header {
+		padding-top: .5em;
+		padding-bottom: .5em;
+		padding-left: 0;
+		height: auto;
+	}
+	h1 {
+		letter-spacing: .1em;
+	}
+	main {
+		margin-left: 0;
+	}
+	nav {
+		float: none;
+		width: auto;
+		text-align: center;
+		padding: .5em .5em .5em .5em;
+	}
+	nav li {
+		padding-top: .25em;
+		padding-bottom: .25em;
+		padding-left: .75em;
+		padding-right: .75em;
+	}
+	#homehero {
+		margin-left: 0;
+		height: 200px;
+	}
+	#yurthero {
+		margin-left: 0;
+		height: 200px;
+	}
+	#trailhero {
+		margin-left: 0;
+		height: 200px;
+	}
+	footer {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 37.5em) {
+	main {
+		padding-top: .1em;
+		padding-bottom: .1em;
+		padding-right: 1em;
+		padding-left: 1em;
+		font-size: 90%;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	nav {
+		padding: 0;
+	}
+	nav li {
+		display: block;
+		margin: 0;
+		border-bottom: 2px solid #330000
+	}
+	nav a {
+		display: block;
+	}
+	#homehero, #yurthero, #trailhero {
+		background-image: none;
+		height: 0;
+	}
+	#mobile {
+		display: inline;
+	}
+	#desktop {
+		display: none;
+	}
+	label {
+		float: none;
+		text-align: left;
+	}
+	input[type="submit"] {
+		margin-left: 0;
+	}
+}
